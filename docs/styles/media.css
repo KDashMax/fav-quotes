@@ -1,0 +1,412 @@
+/* @media screen and (max-width: 760px){ */
+/* @media (min-width: 768px) and (max-width: 991.98px) { */
+    /* @media (max-width: 991.98px) { */
+
+
+@media (max-width: 767.98px) {
+    body { 
+    /*apagar dps*/
+    color: red;
+    /* PAREI AQUI  */
+    }
+
+    header{
+        flex-direction: column;
+    }
+    
+    main{
+        flex-direction: column;
+        /* margin: 0 auto; */
+    }
+    
+    main aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    h2 {
+        /* font-size: 38px; */
+        font-size: 2.38em;
+        line-height: normal;
+        padding: 0;
+        margin: 0;
+        align-self: center;
+        text-align: center;
+    }
+
+
+    p{
+        text-align: justify;
+        align-self: center;
+        width: 70%;
+        /* margin: 0 auto; */
+        /* word-spacing: 2px; */
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        /* width: 100%; */
+        align-self: center;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+        align-self: center;
+    }
+    
+
+    /* input {
+        align-self: center;
+    } */
+    /* input, input[type="submit"]{
+        width: 100%;    
+    } */
+
+    img{
+        display: none;
+    }
+    
+    ul {
+        text-align: center;
+        padding: 0;
+    }
+    
+    
+} 
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        color: gold;
+        margin: 0 20px;
+        padding: 10px;
+    }
+    /* HEADER */
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    #title {
+        flex-direction: column; 
+        line-height: 10px;
+    }
+
+    #title > h1 {
+        font-size: 1.59em;
+        font-size: 1.40em;
+        font-size: 1.30em;
+        font-weight: 200;
+    }
+    
+    li{
+        display: inline-block;
+        margin: 12px;
+    }
+    
+    a{
+        color: white;
+        font-size: 0.83em;
+        font-size: 0.65em;
+        font-size: 0.67em;
+    }
+    
+    /*
+    a:hover{
+        color: rgb(132, 14, 201);
+        transition: 0.3s all;
+    } */
+    
+    #inscreva-se-btn {
+        border: 2px solid rgb(132, 14, 201);
+        padding: 8px;
+        border-radius: 15px;
+    }
+    
+    /* #inscreva-se-btn:hover{
+        background-color: rgb(132, 14, 201);
+        color: white;
+    }
+     */
+    /* Fim header */
+    /* MAIN */
+    main{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 50px; */
+        margin-top: 30px;
+    }
+    /* #2 */
+    main aside {        
+        min-width: 450px;
+        min-width: 400px;
+        min-width: 380px;
+    }
+    
+    h2{
+        /* font-size: 56px; */
+        /* font-size: 2.5em; */
+        font-size: 2.7em;
+        font-size: 2.2em;
+        font-size: 2.15em;
+        width: 100%;
+        line-height: 10px;
+        /* line-height: 1; */
+        font-family: poppinsmedium;
+    }
+    
+    
+    p {
+        line-height: 15px;
+        max-width: 400px;
+        max-width: 300px;
+        font-family: poppinslight;
+        font-size: 0.83em;
+        font-size: 0.65em;
+        font-size: 0.67em;
+    }
+    
+    img {
+        width: 400px;
+        width: 360px;
+        width: 340px;
+        /* filter: drop-shadow(30px 10px 4px #b244dd); */
+        /* filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)); */
+        /* filter: drop-shadow(0 0 0.75rem rgba(248, 248, 248, 0.623)); */
+        /* filter: drop-shadow(0 0 0.75rem rgb(132, 14, 201)); */
+        /* filter: drop-shadow(16px 16px 20px red) invert(20%); */
+        /* filter: drop-shadow(16px 16px 10px black); */
+         /* #1 */
+        /* border: 5px solid hsl(0, 0%, 40%); */
+
+        /* #2 */
+        /* padding: 5px; */
+        /* background: hsl(0, 0%, 20%); */
+        
+        /* #3 */
+        /* outline: 5px solid hsl(0, 0%, 60%); */
+        
+        /* #4 AND INFINITY!!! (CSS3 only) */
+        /* box-shadow:
+            0 0 0 10px hsl(0, 0%, 80%),
+            0 0 0 15px hsl(0, 0%, 90%); */
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    form [type="submit"] {
+        height: 40px;
+        height: 36px;
+        width: 50%;
+        background-color: rgb(132, 14, 201);
+        color: white;
+        font-weight: bold;
+    }
+    
+    form [type="submit"]:hover {
+        cursor: pointer;
+    }
+    
+    input {
+        margin-top: 20px;
+        height: 20px;
+        height: 16px;
+        padding: 10px;
+        padding: 8px;
+        border-radius: 10px;
+        border: none;
+        font-size: 15px;
+        font-size: 0.83em;
+        font-size: 0.67em;
+    }
+    
+
+}
+/* @media (max-width: 991.98px) {...} */
+
+/* @media screen and (max-width: 1200px){ */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    body {
+        color: cyan;
+        /* margin: 0 40px; */
+        margin: 0 20px;
+        padding: 10px;
+    }
+    
+    /* header{
+        flex-direction: column;
+    }
+    
+    main{
+        flex-direction: column;
+    }
+
+    img{
+        display: none;
+    } */
+    
+    /* HEADER */
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    #title {
+        flex-direction: column; 
+        line-height: 10px;
+    }
+
+    #title > h1 {
+        font-size: 1.59em;
+        font-weight: 200;
+    }
+    
+    li{
+        display: inline-block;
+        margin: 12px;
+    }
+    
+    a{
+        color: white;
+        font-size: 0.83em;
+    }
+    
+    /*
+    a:hover{
+        color: rgb(132, 14, 201);
+        transition: 0.3s all;
+    } */
+    
+    #inscreva-se-btn {
+        border: 2px solid rgb(132, 14, 201);
+        padding: 8px;
+        border-radius: 15px;
+    }
+    
+    /* #inscreva-se-btn:hover{
+        background-color: rgb(132, 14, 201);
+        color: white;
+    }
+     */
+    /* Fim header */
+    /* MAIN */
+    main{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 50px; */
+        margin-top: 30px;
+    }
+    /* #2 */
+    main aside {        
+        min-width: 450px;
+    }
+    
+    h2{
+        /* font-size: 56px; */
+        /* font-size: 2.5em; */
+        font-size: 2.7em;
+        width: 100%;
+        line-height: 10px;
+        /* line-height: 1; */
+        font-family: poppinsmedium;
+    }
+    
+    
+    p {
+        line-height: 15px;
+        max-width: 400px;
+        font-family: poppinslight;
+        font-size: 0.83em;
+    }
+    
+    img {
+        width: 400px;
+        /* filter: drop-shadow(30px 10px 4px #b244dd); */
+        /* filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)); */
+        /* filter: drop-shadow(0 0 0.75rem rgba(248, 248, 248, 0.623)); */
+        /* filter: drop-shadow(0 0 0.75rem rgb(132, 14, 201)); */
+        /* filter: drop-shadow(16px 16px 20px red) invert(20%); */
+        /* filter: drop-shadow(16px 16px 10px black); */
+         /* #1 */
+        /* border: 5px solid hsl(0, 0%, 40%); */
+
+        /* #2 */
+        /* padding: 5px; */
+        /* background: hsl(0, 0%, 20%); */
+        
+        /* #3 */
+        /* outline: 5px solid hsl(0, 0%, 60%); */
+        
+        /* #4 AND INFINITY!!! (CSS3 only) */
+        /* box-shadow:
+            0 0 0 10px hsl(0, 0%, 80%),
+            0 0 0 15px hsl(0, 0%, 90%); */
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    form [type="submit"] {
+        height: 40px;
+        width: 50%;
+        background-color: rgb(132, 14, 201);
+        color: white;
+        font-weight: bold;
+    }
+    
+    form [type="submit"]:hover {
+        cursor: pointer;
+    }
+    
+    input {
+        margin-top: 20px;
+        height: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        font-size: 15px;
+        font-size: 0.83em;
+    }
+    
+
+
+}
+
+
+/* // `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... } */

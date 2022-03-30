@@ -1,0 +1,84 @@
+@media screen and (max-width: 760px){
+    body{
+        /* background: url('https://images5.alphacoders.com/601/601920.jpg'); */
+        /* background: url('https://images8.alphacoders.com/516/516355.jpg'); */
+        /* background: url('https://images8.alphacoders.com/897/897232.jpg'); */
+        /* background: url('https://images3.alphacoders.com/722/722008.jpg'); */
+        /* background: url('https://images2.alphacoders.com/930/930629.jpg'); */
+        /* background: url('https://images2.alphacoders.com/862/862759.jpg'); */
+        /* background: url('https://images2.alphacoders.com/505/505735.jpg'); */
+        
+        /* background: url('https://img.freepik.com/free-photo/golden-glitter-powder-dust-bursting-background_1017-32799.jpg?w=996'); */
+        
+        /* background: url('https://images5.alphacoders.com/112/1120944.jpg'); */
+        background: url('https://images6.alphacoders.com/109/1092872.png');
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    main{
+        flex-direction: column;
+        align-items: center;
+        margin: 5px auto;
+    }
+/* 
+    article{
+        display: none;
+    } */
+    /* aside {
+        margin: 0 auto;
+    }
+     */
+    h2 {
+        font-size: 38px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    p {
+        justify-content: center;
+        text-align: justify;
+        margin: 10px auto;
+    }
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input {
+        align-self: center;
+        width: 90%;
+    }
+    
+    input[type="submit"]{
+        width: 100%;
+    }
+    
+    ul {
+        text-align: center;
+        margin-left: 0 auto;
+        /* padding: 0; */
+        padding-left: 0 ;
+    }
+
+    ul li {
+        margin: 10px;
+        display: inline-block;
+    }
+
+    ul #inscreva-se-btn {
+        display: block;    
+    }
+
+    img{
+        display: none;
+    }
+}
